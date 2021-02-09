@@ -1,10 +1,10 @@
-function logFunc(message){
-  console.log(message)
+const logFunc = (message) => {
+  console.log(message);
 }
 
-function logAndCallbackFunc(message, callback){
-  console.log(message)
-  callback()
+const logAndCallbackFunc = (message, callback) => {
+  console.log(message);
+  callback();
 }
 
 class Logger {
@@ -13,15 +13,14 @@ class Logger {
   }
 
   log(message){
-    logFunc(this.name + ": " + message)
+    logFunc(this.name + ": " + message);
   }
 
   logAndCallback(message, callback){
-    logAndCallbackFunc(this.name + ": " + message, callback)
+    logAndCallbackFunc(this.name + ": " + message, callback);
   }
 }
 
-exports = {
-  logFunc,
-  logAndCallbackFunc,
-  Logger};
+exports.logFunc = logFunc;
+exports.logAndCallbackFunc = logAndCallbackFunc;
+exports.Logger = Logger;

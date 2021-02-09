@@ -1,0 +1,26 @@
+{
+  "name": "examplemodule",
+  "version": "1.0.0",
+  "description": "A example module showing how to expor functions and classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owodunni/exampleModule.git"
+  },
+  "keywords": [
+    "npm",
+    "vanilla",
+    "javascript",
+    "export",
+    "module"
+  ],
+  "author": "Alexander Poole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owodunni/exampleModule/issues"
+  },
+  "homepage": "https://github.com/owodunni/exampleModule#readme"
+}
